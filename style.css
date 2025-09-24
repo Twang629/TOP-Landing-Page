@@ -1,0 +1,22 @@
+.header  {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 24px;
+  gap: 24px;
+}
+
+.logo{
+    font-size: 24px;
+}
