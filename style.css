@@ -3,20 +3,27 @@
   background: #1f2937;
   color: #f9faf8;
   display: flex;
+  flex-wrap: wrap;
+  height: 250px;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
+}
+.header-section{
+  flex: 1 1 calc(100% - 50px);
+}
+
+.header-section:nth-child(-n + 2){
+  flex: 0 0 50px;
+}
+.header-section:nth-child(n + 3){
+  height: 50px;
+  width: calc(100% - 50px);
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding: 24px;
+  margin-right: 24px;
   gap: 24px;
-}
-
-.logo{
-    font-size: 24px;
 }
