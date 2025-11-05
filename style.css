@@ -1,14 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+}
+
 .header  {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   background: #1f2937;
-  color: #f9faf8;
+  /* color: #f9faf8;
   display: flex;
   flex-wrap: wrap;
   height: 300px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
-.header-section{
+
+#header-logo{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-link{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left,.navbar-right{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.content{
+  display:flex;
+  flex-direction: row;
+}
+
+.content-left,.content-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* .header-section{
   flex: 1 1 calc(100% - 50px);
 }
 
@@ -18,12 +72,11 @@
 .header-section:nth-child(n + 3){
   height: 50px;
   width: calc(100% - 50px);
-}
+} */
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
   display: flex;
+  flex-direction: row;
   margin-right: 24px;
   gap: 24px;
 }
