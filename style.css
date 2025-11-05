@@ -52,13 +52,43 @@ h1{
 .content{
   display:flex;
   flex-direction: row;
+  margin: 50px;
 }
 
-.content-left,.content-right{
+.content-right{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 50%;
+}
+
+.content-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 150px;
+}
+
+img{
+  margin-bottom: 50px;
+}
+
+.p-first{
+  align-items: center;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-button{
+  background: #054ec4;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px #054ec4;
+  border-radius: 10px;
+
 }
 
 
