@@ -9,15 +9,10 @@ body{
   font-family: 'Roboto Slab', serif;
 }
 
+/* Header */
+
 .header  {
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   background: #1f2937;
-  /* color: #f9faf8;
-  display: flex;
-  flex-wrap: wrap;
-  height: 300px;
-  align-items: center;
-  justify-content: space-between; */
 }
 
 #header-logo{
@@ -91,22 +86,47 @@ img{
 
 }
 
-
-/* .header-section{
-  flex: 1 1 calc(100% - 50px);
-}
-
-.header-section:nth-child(-n + 2){
-  flex: 0 0 50px;
-}
-.header-section:nth-child(n + 3){
-  height: 50px;
-  width: calc(100% - 50px);
-} */
-
 ul {
   display: flex;
   flex-direction: row;
   margin-right: 24px;
   gap: 24px;
 }
+
+/* Information */
+
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.blue-boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 100px;
+  align-items: center;
+}
+
+.box-blue{
+  border: 3px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.p-second{
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Testimonial */
