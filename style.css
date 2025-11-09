@@ -83,7 +83,6 @@ img{
   height: 40px;
   border: 1px #054ec4;
   border-radius: 10px;
-
 }
 
 ul {
@@ -130,3 +129,85 @@ h2{
 }
 
 /* Testimonial */
+
+.testimonial{
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.p-third{
+  font-size: 18px;
+  text-align: end;
+}
+
+/* Call to Action */
+
+.call-to-action{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container{
+  background-color: #3882f6;
+  width: 75%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.CTA-text{
+  width:80%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h4{
+  font-size: 24px;
+  color: white;
+}
+
+.CTA-p{
+  color:white;
+  font-size: 18px;
+}
+
+.CTA-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-button{
+  background: #054ec4;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 75px;
+}
